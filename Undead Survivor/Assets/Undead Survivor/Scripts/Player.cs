@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float speed = 5f;
     public Vector2 inputVec;
+    public Scanner scanner;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -19,6 +20,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        scanner = GetComponent<Scanner>();
     }
 
     private void FixedUpdate()

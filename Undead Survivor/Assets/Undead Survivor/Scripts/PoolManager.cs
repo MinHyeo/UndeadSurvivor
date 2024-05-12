@@ -17,13 +17,13 @@ public class PoolManager : MonoBehaviour
             pools[i] = new List<GameObject>();
         }
     }
-
     public GameObject Get(int index)
     {
         GameObject select = null;
         for (int i = 0; i < pools[index].Count; i++){
             if (!pools[index][i].activeSelf){
                 select = pools[index][i];
+                select.SetActive(true);
                 break;
             }
         }
