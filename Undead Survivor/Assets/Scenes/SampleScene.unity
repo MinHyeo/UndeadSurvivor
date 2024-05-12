@@ -4754,6 +4754,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d80203ed79864941a27211c49f73fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameTime: 0
+  maxGameTime: 20
   pool: {fileID: 1356212646}
   player: {fileID: 75245734}
 --- !u!4 &323408059
@@ -13763,6 +13765,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: []
+  spawnDatas:
+  - speed: 1.5
+    spriteType: 0
+    spawnTime: 0.7
+    health: 10
+  - speed: 2.4
+    spriteType: 1
+    spawnTime: 0.2
+    health: 15
 --- !u!1 &969619437
 GameObject:
   m_ObjectHideFlags: 0
@@ -18441,7 +18452,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabs:
   - {fileID: 5418971804388548771, guid: 6e34d667837064d4ca29de5d301645f2, type: 3}
-  - {fileID: 1980536588306325335, guid: bbb56a5a0359db54685a6c8fb4e01064, type: 3}
 --- !u!4 &1356212647
 Transform:
   m_ObjectHideFlags: 0
