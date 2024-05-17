@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 5f;
+    public float speed = 5f;
     public Vector2 inputVec;
     public Scanner scanner;
 
