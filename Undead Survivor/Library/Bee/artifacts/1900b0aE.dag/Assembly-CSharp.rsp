@@ -391,6 +391,7 @@
 "Assets/Undead Survivor/Scripts/Player.cs"
 "Assets/Undead Survivor/Scripts/PoolManager.cs"
 "Assets/Undead Survivor/Scripts/Reposition.cs"
+"Assets/Undead Survivor/Scripts/Result.cs"
 "Assets/Undead Survivor/Scripts/Scanner.cs"
 "Assets/Undead Survivor/Scripts/Spawner.cs"
 "Assets/Undead Survivor/Scripts/Weapon.cs"
